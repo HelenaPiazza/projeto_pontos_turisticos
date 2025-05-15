@@ -1,0 +1,18 @@
+p {
+    background-color: blue;
+}
+div {
+    color: yellow;
+    text-align: center;
+}
+div p {
+    background-color: green;
+}
+.fundo_vermelho {
+    /*para class adicione "." na frente do nome  */
+    background-color: red;
+}
+#sla {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* para id adicione um "#" na frente do nome */

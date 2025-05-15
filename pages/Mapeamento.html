@@ -1,17 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="pt-br">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mapeamento</title>
-</head>
-<body>
-    <h1>Mapeamento de Imagens</h1>
-    <img src="../img/Formas Geo.jpg" alt="" usemap="#outronome">
-    <map name="outronome">
-        <area shape="" coords="" href="" alt="">
+    <head>
+        <meta charset="pt-br">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mapeamento</title>
+        <link rel="stylesheet" href="../css/mapa.css">
+    </head>
+    <body>
+        <h1 id="sla">H1 fora do div</h1>
+        <p>Paragrafo fora do div</p>
 
-    </map>
+        <div>
+        <h1> H1 dentro do div</h1>
+        <h2>H2 dentro do div</h2>
+        <p>Paragrafo 1 dentro do div</p>
+        <p class="fundo_vermelho">Paragrafo 1 dentro do div</p>
+        </div>
 
-</body>
-</html>
+        <header>
+            <!--Cabeçalho-->
+            <h1>Mapeamento de Imagens</h1>
+            <nav>
+                <!--Menu-->
+                <ul>
+                    <li>Home import</li>
+                    <li>Projetos</li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <!--Parte principal do site-->
+            <img src="../img/Formas Geo.jpg" alt width usemap="#geraldo">
+            <map name="geraldo">
+                <area shape="rect" coords="148,175,230,251"
+                    href="https://pt.wikipedia.org/wiki/Quadrado" alt>
+                <!--Para achar o raio do c´riculo descubra o valor do meio da figuara e do canto (siga uma linha reta!) e subtraia-->
+                <area shape="circle" coords="84,215,45"
+                    href="https://pt.wikipedia.org/wiki/C%C3%ADrculo" alt>
+                <!--poly = varios pontos-->
+                <area shape="poly" coords="458,176,418,256,499,252"
+                    href="https://pt.wikipedia.org/wiki/Tri%C3%A2ngulo" alt>
+                <area shape="rect" coords="269,176,379,253"
+                    href="https://pt.wikipedia.org/wiki/Ret%C3%A2ngulo" alt>
+            </map>
+            <section id="noticia">
+                <!--Seções-->
+                <!--id = nome (apenas 1)-->
+                <article class="Artigo">
+                    <!--Artigo-->
+                    <!--class = identificação de classe-->
+                </article>
+                </section id="destaque">
+            </main>
+            <footer>
+
+            </footer>
+            <div>
+                <!--Agrupamento de conteúdo-->
+            </div>
+
+        </body>
+        <!--Para organizar a pagina: alt + shift + F
+    configure e depois clique na linguagem desejada-->
+    </html>

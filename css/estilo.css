@@ -1,49 +1,58 @@
-body{ 
-        /*modifica tudo*/
+body {
+    /*modifica tudo*/
     background-color: rgb(201, 201, 197);
-        /*cor de fundo */
-    color:  rgb(38, 79, 112);
-        /*cor da letra*/
+    /*cor de fundo */
+    color: rgb(38, 79, 112);
+    /*cor da letra*/
 }
-table {
-        /*modifica só o item especifico*/
-    background-color: rgb(19, 39, 54);
-        /*mouse em cima do quadrado da cor mais opções se cores*/
 
-        /*border: 2px solid  rgb(19, 39, 54);
+table {
+    /*modifica só o item especifico*/
+    background-color: rgb(19, 39, 54);
+    /*mouse em cima do quadrado da cor mais opções se cores*/
+
+    /*border: 2px solid  rgb(19, 39, 54);
           modifica as 3 propriedades da borda
             boder-width (largura) 
             border-sytle (estilo)
             border-color (cor) */
     width: 100%;
-        /*tamanho da tabela*/
+    /*tamanho da tabela*/
     text-transform: capitalize;
-        /*define se: o texto será todo em letra maiúscula, minúsculas ou mista*/
+    /*define se: o texto será todo em letra maiúscula, minúsculas ou mista*/
 
-        /*font-family: definir estilo da fonte
+    /*font-family: definir estilo da fonte
             fonte google: link da fonte em outro local e escrever o codigo de fonte no css*/
 
 }
+
 th, td {
+    /* VIRGULA = altere esse e esse*/
     text-align: center;
-        /*definindo direção do texto*/
+    /*definindo direção do texto*/
     padding: 2px;
-        /*alinhando o espaço interno*/
-  }
-  
-  tr:nth-child(even){background-color: #f2f2f2}
-  tr:nth-child(odd){background-color: rgb(71, 119, 158)}
-        /*define cor do "filho" par(even) ou inpar(odd)*/
-  
-  th {
+    /*alinhando o espaço interno*/
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(71, 119, 158)
+}
+
+/*define cor do "filho" par(even) ou inpar(odd)*/
+
+th {
     background-color: rgb(19, 39, 54);
     color: white;
-  }
+}
 
-  tr:hover {
-        /*modifica o estilo do conteúdo quando passar o mouse em cima*/
+tr:hover {
+    /*modifica o estilo do conteúdo quando passar o mouse em cima*/
     background-color: rgb(161, 253, 223);
     color: rgb(185, 116, 250);
     font-size: 20px
         /*tamanho da fonte*/
-  }
+}
